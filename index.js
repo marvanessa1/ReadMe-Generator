@@ -41,7 +41,7 @@ const questions = [
         choices:[
             "MIT",
             "Mozilla",
-            "GNU LGPLv3",
+            "The Unlicense",
             "Application does not use a license",
         ],
     },
@@ -64,6 +64,9 @@ function writeToFile(fileName, data) {}
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(answers)
+        fs.writeFile("./generatedReadMe/README.md", generateMarkdown(answers),(err)=>
+        err ? console.error(err) : console.log("Successfully wrote to README.md")
+        );
     });
 }
 
