@@ -2,11 +2,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT"){
-    return`#[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    return`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   } else if (license === "Mozilla"){
-    return`#[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+    return`[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   }else if (license === "The Unlicense"){
-    return`#[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+    return`[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
     `
   }else if (license === "Application does not use a license"){
     return``
@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "MIT"){
-    return `# License ${renderLicenseBadge(license)}
+    return `${renderLicenseBadge(license)}
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -44,7 +44,7 @@ function renderLicenseSection(license) {
     
     https://opensource.org/licenses/MIT`;
   } else if (license === "Mozilla"){
-    return`# License ${renderLicenseBadge(license)}
+    return`${renderLicenseBadge(license)}
     This Source Code Form is subject to the terms of the Mozilla Public
     License, v. 2.0. If a copy of the MPL was not distributed with this
     file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -57,7 +57,7 @@ function renderLicenseSection(license) {
     You may add additional accurate notices of copyright ownership.
     `;
   } else if (license ==="The Unlicense"){
-    return `# License ${renderLicenseBadge(license)}
+    return `${renderLicenseBadge(license)}
     This is free and unencumbered software released into the public domain.
 
     Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -148,7 +148,7 @@ ${renderLicenseSection(data.license)}
 
 # Contributing
 
-${data.contributin}
+${data.contributing}
 
 # Tests
 

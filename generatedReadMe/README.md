@@ -1,15 +1,15 @@
 
-  # Projessional ReadMe Generator
+# README Generator
 
-  #[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  
-  # Discription
-  This application helps a user create a professional ReadMe.md file by answering some questions via node
-  
-  # Table of Contents
-  
-  
+
+# Discription
+This application helps a user create a high-quality README.md file for their application project by answering a few questions.
+
+# Table of Contents
+
+
     -[Description](#description)
     -[Installation](#installation)
     -[Usage](#usage)
@@ -19,17 +19,17 @@
     -[Questions](#questions)
     
 
-  # Installation
+# Installation
 
-  example
-  
-  # Usage
-  
-  example
-  
-  # License
+Here is where the user will enter instructions on how to install their application.
 
-  # License #[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Usage
+
+Here is where the user will enter important usage information regarding their application, like providing examples on how to use their application.  User can add screenshots to this section.
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -50,19 +50,18 @@
     
     https://opensource.org/licenses/MIT
 
-  # Contributing
-  
-  undefined
+# Contributing
 
-  # Tests
+If the user is accepting contributions from other developers, they can add guidelines on how to do so here. 
 
-  example
-  
-  # Questions
-  
-  
+# Tests
+
+If the user chooses to write tests for their application, they may include them here and provide example on how to run them.
+
+# Questions
+
+
   If you have any questions, email me at [marvanessa1@live.com](mailto:marvanessa1@live.com).
 
   My GitHub user is [marvanessa1](https://github.com/marvanessa1)
-  
   
