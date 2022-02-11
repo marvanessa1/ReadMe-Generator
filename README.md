@@ -9,7 +9,7 @@ Install Node JS and follow steps in following video:
 
 # Application Mock-Up
 
-![Application Screenshot]()
+![Application Screenshot](./assets/images/screenshot.png)
 
 # Github Repository
 
