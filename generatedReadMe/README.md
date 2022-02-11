@@ -1,11 +1,11 @@
 
-# Example
+# README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 # Discription
-Example
+This application helps a user create a high-quality README.md file for their application project by answering a few questions.
 
 # Table of Contents
 
@@ -21,11 +21,11 @@ Example
 
 # Installation
 
-Example
+Here is where the user will enter instruction on how to install their application.
 
 # Usage
 
-Example
+Here is where the user will enter important usage information regarding their application, like providing example on how to use their application.  The user can also add screenshots to this section.
 
 # License
 
@@ -52,11 +52,11 @@ Example
 
 # Contributing
 
-Example
+If the user is accepting contribution from other developers, they can add guidelines on how to do so here.
 
 # Tests
 
-Example
+If the user writes test for their application, they can add steps and instruction on how to run said tests here.
 
 # Questions
 
