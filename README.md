@@ -7,7 +7,7 @@ This application helps a user create a high-quality README.md file for their app
 
 Install Node JS and follow steps in following video on how to use the application.
 
-![Walkthrough Video](https://watch.screencastify.com/v/mLXt3ftc5ojjr3XGziXY)
+[Walkthrough Video](https://watch.screencastify.com/v/mLXt3ftc5ojjr3XGziXY)
 
 # Application Mock-Up
 
