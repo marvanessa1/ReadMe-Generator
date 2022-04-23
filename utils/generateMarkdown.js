@@ -92,21 +92,21 @@ function renderTableOfContents (license){
   if (license === "Application does not use a license") {
     return `
     -[Description](#description)
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[Contributing](#contributing)
-    -[Tests](#tests)
-    -[Questions](#questions)
+      -[Installation](#installation)
+      -[Usage](#usage)
+      -[Contributing](#contributing)
+      -[Tests](#tests)
+      -[Questions](#questions)
     `;
   } else {
     return `
     -[Description](#description)
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Contributing](#contributing)
-    -[Tests](#tests)
-    -[Questions](#questions)
+      -[Installation](#installation)
+      -[Usage](#usage)
+      -[License](#license)
+      -[Contributing](#contributing)
+      -[Tests](#tests)
+      -[Questions](#questions)
     `;
   }
 };
@@ -127,34 +127,34 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 
-# Discription
+## Discription
 ${data.discription}
 
-# Table of Contents
+## Table of Contents
 
 ${renderTableOfContents(data.license)}
 
-# Installation
+## Installation
 
 ${data.installation}
 
-# Usage
+## Usage
 
 ${data.usage}
 
-# License
+## License
 
 ${renderLicenseSection(data.license)}
 
-# Contributing
+## Contributing
 
 ${data.contributing}
 
-# Tests
+## Tests
 
 ${data.tests}
 
-# Questions
+## Questions
 
 ${renderQuestions(data.user, data.email)}
 `;
