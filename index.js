@@ -11,13 +11,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'discription',
-        message: 'Enter a discription of your application',
+        name: 'description',
+        message: 'Enter a description of your application',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Enter the instruction for installation',
+        message: 'Enter the instructions for installation',
     },
     {
         type: 'input',

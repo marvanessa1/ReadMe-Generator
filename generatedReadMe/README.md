@@ -1,11 +1,11 @@
 
-# README Generator
+# Team Profile Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 # Discription
-This application helps a user create a high-quality README.md file for their application project by answering a few questions.
+This Node.js command-line application takes responses from user about employees on a software engineering team to generate an HTML webpage that displays summaries of each person.
 
 # Table of Contents
 
@@ -21,11 +21,11 @@ This application helps a user create a high-quality README.md file for their app
 
 # Installation
 
-Here is where the user will enter instruction on how to install their application.
+This application uses Jest and Inquirer for collecting user input data.  Use the following commands to get the application started:
 
 # Usage
 
-Here is where the user will enter important usage information regarding their application, like providing example on how to use their application.  The user can also add screenshots to this section.
+Type more here
 
 # License
 
@@ -52,11 +52,11 @@ Here is where the user will enter important usage information regarding their ap
 
 # Contributing
 
-If the user is accepting contribution from other developers, they can add guidelines on how to do so here.
+N/A
 
 # Tests
 
-If the user writes test for their application, they can add steps and instruction on how to run said tests here.
+To run test run the following command:
 
 # Questions
 
